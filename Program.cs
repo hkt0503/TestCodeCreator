@@ -29,11 +29,8 @@ namespace TestCodeCreator
             var instance = visualStudioInstances[0];
             MSBuildLocator.RegisterInstance(instance);
 
-            /* Console.Write("Please Enter of target solution path: ");
-            var input = Console.ReadLine();*/
-            
-            //var input = "D:\\JEIS\\SampleSRC\\HatchuWFWpf2Tier\\HatchuWF.Wpf2Tier.sln";
-            var input = @"C:\Users\hfuku\source\repos\AdventureWorkerApp\AdventureWorkerApp.sln";
+            Console.Write("Please Enter of target solution path: ");
+            var input = Console.ReadLine();
 
             try
             {
